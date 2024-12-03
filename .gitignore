@@ -133,3 +133,5 @@ dmypy.json
 outputs/
 
 .idea/
+
+.cache_dir/

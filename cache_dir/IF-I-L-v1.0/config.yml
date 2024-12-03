@@ -1,0 +1,20 @@
+params:
+  image_size: 64
+  model_channels: 704
+  num_res_blocks: 3
+  channel_mult: "1,2,3,4"
+  attention_resolutions: "32,16,8"
+  num_heads: 1
+  num_head_channels: 64
+  num_heads_upsample: -1
+  use_scale_shift_norm: true
+  dropout: 0.0
+  resblock_updown: true
+  encoder_dim: 4096
+  encoder_channels: 2816
+  in_channels: 3
+  out_channels: 6
+  activation: "gelu"
+  att_pool_heads: 64
+  disable_self_attentions: false
+  precision: "16"
